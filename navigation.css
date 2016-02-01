@@ -1,0 +1,31 @@
+.nav{
+  float: left;
+  width: 100%;
+  background-color: red;
+}
+
+nav li{
+  float: left
+  }
+
+ul{
+  list-style-type: none;
+  }
+
+  .userHover{
+    margin-right: 20px;
+    display: inline;
+  }
+
+nav li:hover {
+  color: yellow;
+  }
+
+/*hover is working for colors, but not for changing size of background on click*/
+  .userHover:hover:active{
+  background-color: purple;
+  width: 50%;
+}
+  /*div {background:white;}
+ div a:hover{background:grey; width:100%;
+display:block; text-decoration:none;}*/
